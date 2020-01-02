@@ -1,14 +1,16 @@
 import java.util.*;
-class tictactoe
+
+class Main
 {
-	  public static void main(String[] args) {
+	  public static int b=1;
+    public static void main(String[] args) {
 		System.out.println("\t\t\t\tWelcome to Tic-Tac-Toe");
 		int a[][]=new int[3][3];	
     System.out.println("The basic structure is");
     System.out.println("\t\t\t\t1 2 3");
     System.out.println("\t\t\t\t4 5 6");
     System.out.println("\t\t\t\t7 8 9");
-    int b=1;
+    
     while(checkdraw(a)!=1 && checkwin(a)==0)
     {
       print(a);
@@ -100,34 +102,89 @@ class tictactoe
     switch(c)
     {
       case 1:
+        if(a[0][0]!=0)
+      {
+        {System.out.print("Invalid Input");
+      b*=-1;}  
+      }
+      else
         a[0][0]=d;
       break;
       case 2:
+        if(a[0][1]!=0)
+      {
+        {System.out.print("Invalid Input");
+      b*=-1;}  
+      }
+      else
         a[0][1]=d;
       break;
       case 3:
+        if(a[0][2]!=0)
+      {
+        {System.out.print("Invalid Input");
+      b*=-1;}  
+      }
+      else
         a[0][2]=d;
       break;
       case 4:
+        if(a[1][0]!=0)
+      {
+        {System.out.print("Invalid Input");
+      b*=-1;}  
+      }
+      else
         a[1][0]=d;
       break;
       case 5:
+        if(a[1][1]!=0)
+      {
+        {System.out.print("Invalid Input");
+      b*=-1;}  
+      }
+      else
         a[1][1]=d;
       break;
       case 6:
+        if(a[1][2]!=0)
+      {
+        {System.out.print("Invalid Input");
+      b*=-1;}  
+      }
+      else
         a[1][2]=d;
       break;
       case 7:
+        if(a[2][0]!=0)
+      {
+        {System.out.print("Invalid Input");
+      b*=-1;}  
+      }
+      else
         a[2][0]=d;
       break;
       case 8:
+        if(a[2][1]!=0)
+      {
+        {System.out.print("Invalid Input");
+      b*=-1;}  
+      }
+      else
         a[2][1]=d;
       break;
       case 9:
+      if(a[2][2]!=0)
+      {
+        {System.out.print("Invalid Input");
+      b*=-1;}  
+      }
+      else
         a[2][2]=d;
       break;
       default:
-      System.out.print("Invalid Input");
+      {System.out.print("Invalid Input");
+      b*=-1;}
       break;
     }
   }
