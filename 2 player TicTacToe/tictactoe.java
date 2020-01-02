@@ -1,3 +1,9 @@
+
+// TicTacToe Game 2 player
+// Created By Om Rawal
+//started on 01/01/2020 20:47
+// completed on 01/01/2020 21:36
+
 import java.util.*;
 
 class Main
