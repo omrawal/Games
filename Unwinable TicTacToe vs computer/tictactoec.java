@@ -57,6 +57,7 @@ class tictactoec
     }
 
   }
+// 	Printing board in grid format
   public static void print(int a[][])
     {
       System.out.println("\t\t\t\tThe board is:");
@@ -72,6 +73,7 @@ class tictactoec
         System.out.println();
       }
     }
+// 	Checking for win 
   public static int checkwin(int a[][])
   {
     if(a[0][0]==a[1][1]&&a[2][2]==a[1][1]&&a[0][0]!=0)
@@ -93,6 +95,7 @@ class tictactoec
     else
     return (0);
   }
+// 	Checking for draw
   public static int checkdraw(int a[][])
   {
     for(int i=0;i<3;i++)
