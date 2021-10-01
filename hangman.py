@@ -3,6 +3,9 @@
 # started on 01/01/2020 10:47
 # completed on 01/01/2020 12:13
 
+# hangman Game where the enteres word should be guessed 
+
+
 import os
 correct=input("Enter the word to guess ").strip().lower()
 cli=[]
