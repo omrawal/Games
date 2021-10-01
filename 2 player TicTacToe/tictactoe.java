@@ -4,6 +4,12 @@
 //started on 01/01/2020 20:47
 // completed on 01/01/2020 21:36
 
+
+
+// 2 Player Tic-Tac_Toe game where users select their desired slot from 3x3 grid 
+// Winner is declared on the basis of the first player getting 3 "x" or "o" in straight line
+// game is drawn if no slots remain to be filled.
+
 import java.util.*;
 
 class Main
