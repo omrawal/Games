@@ -3,7 +3,7 @@
 # started on 01/01/2020 10:47
 # completed on 01/01/2020 12:13
 
-# hangman Game where the enteres word should be guessed 
+# hangman Game where the user enteres word should be guessed 
 
 
 import os
