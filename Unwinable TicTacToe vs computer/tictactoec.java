@@ -108,6 +108,9 @@ class tictactoec
       }
       return(1);
   }
+// Player logic to execute moves
+//  If computer's turn select the best possible move 
+//  if User's turn user can choose the position of choice
   public static void p(int a[][],int d)
   {
     int c;
