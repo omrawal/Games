@@ -70,6 +70,7 @@ class Main
         System.out.println();
       }
     }
+// Checking for win return the winner player number
   public static int checkwin(int a[][])
   {
     if(a[0][0]==a[1][1]&&a[2][2]==a[1][1]&&a[0][0]!=0)
@@ -91,6 +92,7 @@ class Main
     else
     return (0);
   }
+// check for draw if all 9 spaces are filled and no winner is found
   public static int checkdraw(int a[][])
   {
     for(int i=0;i<3;i++)
@@ -103,6 +105,7 @@ class Main
       }
       return(1);
   }
+// play function to select a position for a player
   public static void p(int a[][],int d)
   {
     if(d==1)
