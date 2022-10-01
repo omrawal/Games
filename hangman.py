@@ -5,8 +5,11 @@
 
 # hangman Game where the user enteres word should be guessed 
 
-
+# importing os module needed to refresh the screen
 import os
+
+
+
 correct=input("Enter the word to guess ").strip().lower()
 cli=[]
 for i in correct:
